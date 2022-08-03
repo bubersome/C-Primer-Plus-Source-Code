@@ -14,324 +14,95 @@ set(CMAKE_BUILD_TYPE Debug)
 #include_directories("Chapter 18")
 #include_directories(Chapter09)
 
-add_executable("C_Primer_Plus_Source_Code_Chapter09"
-        #        "Appendix E/align.cpp"
-        #        "Appendix E/memb_pt.cpp"
-        #        "Appendix E/noex.cpp"
-        #        "Appendix G/appg01.cpp"
-        #        "Appendix G/appg02.cpp"
-        #        "Appendix G/appg04.cpp"
-        #        "Appendix G/appg3.cpp"
-        #        "Appendix G/perfectf.cpp"
-        #        "Chapter 02/carrots.cpp"
-        #        "Chapter 02/convert.cpp"
-        #        "Chapter 02/getinfo.cpp"
-        #        "Chapter 02/myfirst.cpp"
-        #        "Chapter 02/ourfunc.cpp"
-        #        "Chapter 02/sqrt.cpp"
-        #        "Chapter 02/test.cpp"
-        #        "Chapter 03/arith.cpp"
-        #        "Chapter 03/assign.cpp"
-        #        "Chapter 03/bondini.cpp"
-        #        "Chapter 03/chartype.cpp"
-        #        "Chapter 03/divide.cpp"
-        #        "Chapter 03/exceed.cpp"
-        #        "Chapter 03/floatnum.cpp"
-        #        "Chapter 03/fltadd.cpp"
-        #        "Chapter 03/hexoct1.cpp"
-        #        "Chapter 03/hexoct2.cpp"
-        #        "Chapter 03/init.cpp"
-        #        "Chapter 03/limits.cpp"
-        #        "Chapter 03/modulus.cpp"
-        #        "Chapter 03/morechar.cpp"
-        #        "Chapter 03/typecast.cpp"
-        #        "Chapter 04/addpntrs.cpp"
-        #        "Chapter 04/address.cpp"
-        #        "Chapter 04/arraynew.cpp"
-        #        "Chapter 04/arrayone.cpp"
-        #        "Chapter 04/arrstruct.cpp"
-        #        "Chapter 04/assgn_st.cpp"
-        #        "Chapter 04/choices.cpp"
-        #        "Chapter 04/delete.cpp"
-        #        "Chapter 04/init_ptr.cpp"
-        #        "Chapter 04/instr1.cpp"
-        #        "Chapter 04/instr2.cpp"
-        #        "Chapter 04/instr3.cpp"
-        #        "Chapter 04/mixtypes.cpp"
-        #        "Chapter 04/newstrct.cpp"
-        #        "Chapter 04/numstr.cpp"
-        #        "Chapter 04/pointer.cpp"
-        #        "Chapter 04/ptrstr.cpp"
-        #        "Chapter 04/strings.cpp"
-        #        "Chapter 04/strtype1.cpp"
-        #        "Chapter 04/strtype2.cpp"
-        #        "Chapter 04/strtype3.cpp"
-        #        "Chapter 04/strtype4.cpp"
-        #        "Chapter 04/structur.cpp"
-        #        "Chapter 04/use_new.cpp"
-        #        "Chapter 05/bigstep.cpp"
-        #        "Chapter 05/block.cpp"
-        #        "Chapter 05/compstr1.cpp"
-        #        "Chapter 05/compstr2.cpp"
-        #        "Chapter 05/dowhile.cpp"
-        #        "Chapter 05/equal.cpp"
-        #        "Chapter 05/express.cpp"
-        #        "Chapter 05/forloop.cpp"
-        #        "Chapter 05/formore.cpp"
-        #        "Chapter 05/forstr1.cpp"
-        #        "Chapter 05/forstr2.cpp"
-        #        "Chapter 05/nested.cpp"
-        #        "Chapter 05/nestedcl.cpp"
-        #        "Chapter 05/num_test.cpp"
-        #        "Chapter 05/plus_one.cpp"
-        #        "Chapter 05/textin1.cpp"
-        #        "Chapter 05/textin2.cpp"
-        #        "Chapter 05/textin3.cpp"
-        #        "Chapter 05/textin4.cpp"
-        #        "Chapter 05/waiting.cpp"
-        #        "Chapter 05/while.cpp"
-        #        "Chapter 06/and.cpp"
-        #        "Chapter 06/cctypes.cpp"
-        #        "Chapter 06/cinfish.cpp"
-        #        "Chapter 06/cingolf.cpp"
-        #        "Chapter 06/condit.cpp"
-        #        "Chapter 06/enum.cpp"
-        #        "Chapter 06/if.cpp"
-        #        "Chapter 06/ifelse.cpp"
-        #        "Chapter 06/ifelseif.cpp"
-        #        "Chapter 06/jump.cpp"
-        #        "Chapter 06/more_and.cpp"
-        #        "Chapter 06/not.cpp"
-        #        "Chapter 06/or.cpp"
-        #        "Chapter 06/outfile.cpp"
-        #        "Chapter 06/sumafile.cpp"
-        #        "Chapter 06/switch.cpp"
-        #        "Chapter 07/arfupt.cpp"
-        #        "Chapter 07/arfupt1.cpp"
-        #        "Chapter 07/arrfun1.cpp"
-        #        "Chapter 07/arrfun2.cpp"
-        #        "Chapter 07/arrfun3.cpp"
-        #        "Chapter 07/arrfun4.cpp"
-        #        "Chapter 07/arrobj.cpp"
-        #        "Chapter 07/calling.cpp"
-        #        "Chapter 07/fun_ptr.cpp"
-        #        "Chapter 07/lotto.cpp"
-        #        "Chapter 07/protos.cpp"
-        #        "Chapter 07/recur.cpp"
-        #        "Chapter 07/ruler.cpp"
-        #        "Chapter 07/strctptr.cpp"
-        #        "Chapter 07/strgback.cpp"
-        #        "Chapter 07/strgfun.cpp"
-        #        "Chapter 07/structfun.cpp"
-        #        "Chapter 07/topfive.cpp"
-        #        "Chapter 07/travel.cpp"
-        #        "Chapter 07/twoarg.cpp"
-        #        "Chapter 10/stack.cpp"
-        #        "Chapter 10/stack.h"
-        #        "Chapter 10/stacker.cpp"
-        #        "Chapter 10/stock00.cpp"
-        #        "Chapter 10/stock00.h"
-        #        "Chapter 10/stock01.cpp"
-        #        "Chapter 10/stock10.cpp"
-        #        "Chapter 10/stock10.h"
-        #        "Chapter 10/stock20.cpp"
-        #        "Chapter 10/stock20.h"
-        #        "Chapter 10/stocks.cpp"
-        #        "Chapter 10/temp20.cpp"
-        #        "Chapter 10/usestok0.cpp"
-        #        "Chapter 10/usestok1.cpp"
-        #        "Chapter 10/usestok2.cpp"
-        #        "Chapter 11/mytime.cpp"
-        #        "Chapter 11/mytime0.h"
-        #        "Chapter 11/mytime1.cpp"
-        #        "Chapter 11/mytime1.h"
-        #        "Chapter 11/mytime2.cpp"
-        #        "Chapter 11/mytime2.h"
-        #        "Chapter 11/mytime3.cpp"
-        #        "Chapter 11/mytime3.h"
-        #        "Chapter 11/randwalk.cpp"
-        #        "Chapter 11/stone.cpp"
-        #        "Chapter 11/stone1.cpp"
-        #        "Chapter 11/stonewt.cpp"
-        #        "Chapter 11/stonewt.h"
-        #        "Chapter 11/stonewt1.cpp"
-        #        "Chapter 11/stonewt1.h"
-        #        "Chapter 11/usetime0.cpp"
-        #        "Chapter 11/usetime1.cpp"
-        #        "Chapter 11/usetime2.cpp"
-        #        "Chapter 11/usetime3.cpp"
-        #        "Chapter 11/vect.cpp"
-        #        "Chapter 11/vect.h"
-        #        "Chapter 12/bank.cpp"
-        #        "Chapter 12/placenew1.cpp"
-        #        "Chapter 12/placenew2.cpp"
-        #        "Chapter 12/queue.cpp"
-        #        "Chapter 12/queue.h"
-        #        "Chapter 12/sayings1.cpp"
-        #        "Chapter 12/sayings2.cpp"
-        #        "Chapter 12/string1.cpp"
-        #        "Chapter 12/string1.h"
-        #        "Chapter 12/strngbad.cpp"
-        #        "Chapter 12/strngbad.h"
-        #        "Chapter 12/vegnews.cpp"
-        #        "Chapter 13/acctabc.cpp"
-        #        "Chapter 13/acctabc.h"
-        #        "Chapter 13/brass.cpp"
-        #        "Chapter 13/brass.h"
-        #        "Chapter 13/dma.cpp"
-        #        "Chapter 13/dma.h"
-        #        "Chapter 13/tabtenn0.cpp"
-        #        "Chapter 13/tabtenn0.h"
-        #        "Chapter 13/tabtenn1.cpp"
-        #        "Chapter 13/tabtenn1.h"
-        #        "Chapter 13/usebrass1.cpp"
-        #        "Chapter 13/usebrass2.cpp"
-        #        "Chapter 13/usebrass3.cpp"
-        #        "Chapter 13/usedma.cpp"
-        #        "Chapter 13/usett0.cpp"
-        #        "Chapter 13/usett1.cpp"
-        #        "Chapter 14/arraytp.h"
-        #        "Chapter 14/frnd2tmp.cpp"
-        #        "Chapter 14/manyfrnd.cpp"
-        #        "Chapter 14/pairs.cpp"
-        #        "Chapter 14/stacktem.cpp"
-        #        "Chapter 14/stacktp.h"
-        #        "Chapter 14/stckoptr1.cpp"
-        #        "Chapter 14/stcktp1.h"
-        #        "Chapter 14/studentc.cpp"
-        #        "Chapter 14/studentc.h"
-        #        "Chapter 14/studenti.cpp"
-        #        "Chapter 14/studenti.h"
-        #        "Chapter 14/tempmemb.cpp"
-        #        "Chapter 14/tempparm.cpp"
-        #        "Chapter 14/tmp2tmp.cpp"
-        #        "Chapter 14/twod.cpp"
-        #        "Chapter 14/use_stuc.cpp"
-        #        "Chapter 14/use_stui.cpp"
-        #        "Chapter 14/worker0.cpp"
-        #        "Chapter 14/worker0.h"
-        #        "Chapter 14/workermi.cpp"
-        #        "Chapter 14/workermi.h"
-        #        "Chapter 14/workmi.cpp"
-        #        "Chapter 14/worktest.cpp"
-        #        "Chapter 15/constcast.cpp"
-        #        "Chapter 15/error1.cpp"
-        #        "Chapter 15/error2.cpp"
-        #        "Chapter 15/error3.cpp"
-        #        "Chapter 15/error4.cpp"
-        #        "Chapter 15/error5.cpp"
-        #        "Chapter 15/exc_mean.h"
-        #        "Chapter 15/nested.cpp"
-        #        "Chapter 15/newexcp.cpp"
-        #        "Chapter 15/newexcpn.cpp"
-        #        "Chapter 15/queuetp.h"
-        #        "Chapter 15/rtti1.cpp"
-        #        "Chapter 15/rtti2.cpp"
-        #        "Chapter 15/sales.cpp"
-        #        "Chapter 15/sales.h"
-        #        "Chapter 15/tv.cpp"
-        #        "Chapter 15/tv.h"
-        #        "Chapter 15/tvfm.h"
-        #        "Chapter 15/use_sales.cpp"
-        #        "Chapter 15/use_tv.cpp"
-        #        "Chapter 15/use_tvfm.cpp"
-        #        "Chapter 16/copyit.cpp"
-        #        "Chapter 16/fowl.cpp"
-        #        "Chapter 16/fowlsp.cpp"
-        #        "Chapter 16/fowlup.cpp"
-        #        "Chapter 16/funadap.cpp"
-        #        "Chapter 16/functor.cpp"
-        #        "Chapter 16/hangman.cpp"
-        #        "Chapter 16/ilist.cpp"
-        #        "Chapter 16/inserts.cpp"
-        #        "Chapter 16/insertsvar.cpp"
-        #        "Chapter 16/list.cpp"
-        #        "Chapter 16/listrmv.cpp"
-        #        "Chapter 16/multmap.cpp"
-        #        "Chapter 16/setops.cpp"
-        #        "Chapter 16/smrtptrs.cpp"
-        #        "Chapter 16/str1.cpp"
-        #        "Chapter 16/str2.cpp"
-        #        "Chapter 16/strfile.cpp"
-        #        "Chapter 16/strngstl.cpp"
-        #        "Chapter 16/unique.cpp"
-        #        "Chapter 16/usealgo.cpp"
-        #        "Chapter 16/valarr0x.cpp"
-        #        "Chapter 16/valvect.cpp"
-        #        "Chapter 16/vect1.cpp"
-        #        "Chapter 16/vect2.cpp"
-        #        "Chapter 16/vect3.cpp"
-        #        "Chapter 16/vectlist.cpp"
-        #        "Chapter 16/vslice.cpp"
-        #        "Chapter 17/append.cpp"
-        #        "Chapter 17/binary.cpp"
-        #        "Chapter 17/check_it.cpp"
-        #        "Chapter 17/cinexcp.cpp"
-        #        "Chapter 17/count.cpp"
-        #        "Chapter 17/defaults.cpp"
-        #        "Chapter 17/fileio.cpp"
-        #        "Chapter 17/files.cpp"
-        #        "Chapter 17/fill.cpp"
-        #        "Chapter 17/get_fun.cpp"
-        #        "Chapter 17/iomanip.cpp"
-        #        "Chapter 17/manip.cpp"
-        #        "Chapter 17/peeker.cpp"
-        #        "Chapter 17/precise.cpp"
-        #        "Chapter 17/random.cpp"
-        #        "Chapter 17/realwrld.cpp"
-        #        "Chapter 17/setf.cpp"
-        #        "Chapter 17/setf2.cpp"
-        #        "Chapter 17/showpt.cpp"
-        #        "Chapter 17/strin.cpp"
-        #        "Chapter 17/strout.cpp"
-        #        "Chapter 17/truncate.cpp"
-        #        "Chapter 17/width.cpp"
-        #        "Chapter 17/write.cpp"
-        #        "Chapter 18/callable.cpp"
-        #        "Chapter 18/lambda0.cpp"
-        #        "Chapter 18/lambda1.cpp"
-        #        "Chapter 18/lexcast.cpp"
-        #        "Chapter 18/rvref.cpp"
-        #        "Chapter 18/somedefs.h"
-        #        "Chapter 18/stdmove.cpp"
-        #        "Chapter 18/useless.cpp"
-        #        "Chapter 18/uselessm.cpp"
-        #        "Chapter 18/variadic1.cpp"
-        #        "Chapter 18/variadic2.cpp"
-        #        "Chapter 18/wrapped0.cpp"
-        #        "Chapter 18/wrapped1.cpp"
-        #        "Chapter 18/wrapped2.cpp"
-        #        Chapter08/arrtemp.cpp
-        #        Chapter08/choices.cpp
-        #        Chapter08/cubes.cpp
-        #        Chapter08/filefunct.cpp
-        #        Chapter08/firstref.cpp
-        #        Chapter08/funtemp.cpp
-        #        Chapter08/inline.cpp
-        #        Chapter08/left.cpp
-        #        Chapter08/leftover.cpp
-        #        Chapter08/secref.cpp
-        #        Chapter08/strc_ref.cpp
-        #        Chapter08/strquote.cpp
-        #        Chapter08/strtref.cpp
-        #        Chapter08/swaps.cpp
-        #        Chapter08/tempover.cpp
-        #        Chapter08/twoswap.cpp
-        #        Chapter08/twotemps.cpp
-        #        Chapter09/autoscp.cpp
-        #        Chapter09/coordin.h
-        #        Chapter09/external.cpp
+add_executable("file1and2"
+
+        #autoscp.cpp
+        #coordin.h
+        #external.cpp
         file1.cpp
         file2.cpp
-        #        Chapter09/namesp.cpp
-        #        Chapter09/namesp.h
-        #        Chapter09/newer.h
-        #        Chapter09/newplace.cpp
-        #        Chapter09/static.cpp
-        #        Chapter09/support.cpp
-        #        Chapter09/twofile1.cpp
-        #        Chapter09/twofile2.cpp
-        #        Chapter09/usenmsp.cpp)
+#        namesp.cpp
+        #namesp.h
+        #newer.h
+        #newplace.cpp
+        #static.cpp
+        #support.cpp
+
+        #usenmsp.cpp)
         )
+add_executable("twofile1and2"
+        twofile1.cpp
+        twofile2.cpp
+)
+
+add_executable("externalAndsupport"
+
+        #autoscp.cpp
+        #coordin.h
+        external.cpp
+#        file1.cpp
+#        file2.cpp
+        #        namesp.cpp
+        #namesp.h
+        #newer.h
+        #newplace.cpp
+        #static.cpp
+        support.cpp
+
+        #usenmsp.cpp)
+        )
+
+add_executable("static"
+
+        #autoscp.cpp
+        #coordin.h
+        #external.cpp
+#        file1.cpp
+#        file2.cpp
+        #        namesp.cpp
+        #namesp.h
+        #newer.h
+        #newplace.cpp
+        static.cpp
+        #support.cpp
+
+        #usenmsp.cpp)
+        )
+
+add_executable("newplace"
+
+        #autoscp.cpp
+        #coordin.h
+        #external.cpp
+        #        file1.cpp
+        #        file2.cpp
+        #        namesp.cpp
+        #namesp.h
+        #newer.h
+        newplace.cpp
+#        static.cpp
+#        support.cpp
+
+        #usenmsp.cpp)
+        )
+
+add_executable("namespace"
+
+        #autoscp.cpp
+        #coordin.h
+        #external.cpp
+        #        file1.cpp
+        #        file2.cpp
+        #        namesp.cpp
+        #namesp.h
+        #newer.h
+#        newplace.cpp
+        #        static.cpp
+        #        support.cpp
+
+        usenmsp.cpp
+        namesp.cpp
+        )
+
 
 #add_dependencies(/Chapter 10/stock00.h)
