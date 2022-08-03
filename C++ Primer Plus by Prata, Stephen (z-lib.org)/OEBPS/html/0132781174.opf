@@ -1,0 +1,348 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="p0132781174">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>C++ Primer Plus</dc:title>
+    <dc:creator xmlns:ns0="http://www.idpf.org/2007/opf" ns0:role="aut" ns0:file-as="Prata, Stephen">Stephen Prata</dc:creator>
+    <dc:date>2011-10-17T16:00:00+00:00</dc:date>
+    <dc:identifier id="p0132781174">0132781174</dc:identifier>
+    <dc:coverage>Upper Saddle River</dc:coverage>
+    <dc:coverage>NJ</dc:coverage>
+    <dc:coverage>Boston</dc:coverage>
+    <dc:coverage>Indianapolis</dc:coverage>
+    <dc:coverage>San Francisco</dc:coverage>
+    <dc:coverage>New York</dc:coverage>
+    <dc:coverage>Toronto</dc:coverage>
+    <dc:coverage>Montreal</dc:coverage>
+    <dc:coverage>London</dc:coverage>
+    <dc:coverage>Munich</dc:coverage>
+    <dc:coverage>Paris</dc:coverage>
+    <dc:coverage>Madrid</dc:coverage>
+    <dc:coverage>Cape Town</dc:coverage>
+    <dc:coverage>Sydney</dc:coverage>
+    <dc:coverage>Tokyo</dc:coverage>
+    <dc:coverage>Singapore</dc:coverage>
+    <dc:coverage>Mexico City</dc:coverage>
+    <dc:format>1434 pages</dc:format>
+    <dc:type>Text</dc:type>
+    <dc:rights>Copyright © 2012 Pearson Education, Inc.</dc:rights>
+    <dc:publisher>Addison Wesley</dc:publisher>
+    <dc:subject>编程</dc:subject>
+    <dc:subject>计算机</dc:subject>
+    <dc:subject>programming</dc:subject>
+    <dc:subject>Primer</dc:subject>
+    <dc:subject>Plus</dc:subject>
+    <dc:subject>经典</dc:subject>
+    <dc:subject>程序设计</dc:subject>
+    <dc:subject>c++</dc:subject>
+    <dc:description>&lt;p class="description"&gt;C++ Primer Plus, Sixth Edition New C++11 Coverage C++ Primer Plus is a carefully crafted, complete tutorial on one of the most significant and widely used programming languages today. An accessible and easy-to-use self-study guide, this book is appropriate for both serious students of programming as well as developers already proficient in other languages.  The sixth edition of C++ Primer Plus has been updated and expanded to cover the latest developments in C++, including a detailed look at the new C++11 standard.  Author and educator Stephen Prata has created an introduction to C++ that is instructive, clear, and insightful. Fundamental programming concepts are explained along with details of the C++ language. Many short, practical examples illustrate just one or two concepts at a time, encouraging readers to master new topics by immediately putting them to use. Review questions and programming exercises at the end of each chapter help readers zero in on the most critical information and digest the most difficult concepts. In C++ Primer Plus, you'll find depth, breadth, and a variety of teaching techniques and tools to enhance your learning:  * A new detailed chapter on the changes and additional capabilities introduced in the C++11 standard * Complete, integrated discussion of both basic C language and additional C++ features* Clear guidance about when and why to use a feature* Hands-on learning with concise and simple examples that develop your understanding a concept or two at a time* Hundreds of practical sample programs* Review questions and programming exercises at the end of each chapter to test your understanding* Coverage of generic C++ gives you the greatest possible flexibility* Teaches the ISO standard, including discussions of templates, the Standard Template Library, the string class, exceptions, RTTI, and namespacesTable of Contents 1: Getting Started with C++ 2: Setting Out to C++ 3: Dealing with Data 4: Compound Types 5: Loops and Relational Expressions 6: Branching Statements and Logical Operators 7: Functions: C++'s Programming Modules 8: Adventures in Functions  9: Memory Models and Namespaces  10: Objects and Classes  11: Working with Classes  12: Classes and Dynamic Memory Allocation  13: Class Inheritance  14: Reusing Code in C++  15: Friends, Exceptions, and More  16: The string Class and the Standard Template Library  17: Input, Output, and Files  18: The New C++11 Standard A Number Bases B C++ Reserved Words C The ASCII Character Set D Operator Precedence E Other Operators F The stringTemplate Class G The Standard Template Library Methods and Functions H Selected Readings and Internet Resources I Converting to ISO Standard C++  J Answers to Chapter Reviews&lt;/p&gt;</dc:description>
+    <dc:language>en</dc:language>
+    <dc:identifier xmlns:ns2="http://www.idpf.org/2007/opf" ns2:scheme="calibre">5638a962-eba6-4abe-ae61-61371a2f15e1</dc:identifier>
+    <dc:identifier xmlns:ns3="http://www.idpf.org/2007/opf" ns3:scheme="DOUBAN">6971116</dc:identifier>
+    <dc:identifier xmlns:ns4="http://www.idpf.org/2007/opf" ns4:scheme="ISBN">9780321776402</dc:identifier>
+    <meta name="cover" content="cover-image"/>
+    <meta name="calibre:title_sort" content="C++ Primer Plus"/>
+    <meta name="calibre:rating" content="8"/>
+    <meta name="calibre:author_link_map" content="{&quot;Stephen Prata&quot;: &quot;&quot;}"/>
+    <meta name="calibre:user_metadata:#lib" content="{&quot;is_category&quot;: false, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 1, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 22, &quot;search_terms&quot;: [&quot;#lib&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;is_multiple2&quot;: {}, &quot;is_multiple&quot;: null, &quot;datatype&quot;: &quot;int&quot;, &quot;#value#&quot;: 1, &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_1&quot;, &quot;is_editable&quot;: true, &quot;label&quot;: &quot;lib&quot;, &quot;display&quot;: {}, &quot;name&quot;: &quot;lib&quot;}"/>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
+    <item id="pre01" href="pre01.html" media-type="application/xhtml+xml"/>
+    <item id="title" href="title.html" media-type="application/xhtml+xml"/>
+    <item id="copy" href="copyright.html" media-type="application/xhtml+xml"/>
+    <item id="ded01" href="ded01.html" media-type="application/xhtml+xml"/>
+    <item id="toc" href="toc.html" media-type="application/xhtml+xml"/>
+    <item id="toc1" href="bk01-toc.html" media-type="application/xhtml+xml"/>
+    <item id="pre02" href="pre02.html" media-type="application/xhtml+xml"/>
+    <item id="pre03" href="pre03.html" media-type="application/xhtml+xml"/>
+    <item id="pre04" href="pre04.html" media-type="application/xhtml+xml"/>
+    <item id="pre05" href="pre05.html" media-type="application/xhtml+xml"/>
+    <item id="ch00" href="ch00.html" media-type="application/xhtml+xml"/>
+    <item id="ch01" href="ch01.html" media-type="application/xhtml+xml"/>
+    <item id="ch02" href="ch02.html" media-type="application/xhtml+xml"/>
+    <item id="ch03" href="ch03.html" media-type="application/xhtml+xml"/>
+    <item id="ch04" href="ch04.html" media-type="application/xhtml+xml"/>
+    <item id="ch05" href="ch05.html" media-type="application/xhtml+xml"/>
+    <item id="ch06" href="ch06.html" media-type="application/xhtml+xml"/>
+    <item id="ch07" href="ch07.html" media-type="application/xhtml+xml"/>
+    <item id="ch08" href="ch08.html" media-type="application/xhtml+xml"/>
+    <item id="ch09" href="ch09.html" media-type="application/xhtml+xml"/>
+    <item id="ch10" href="ch10.html" media-type="application/xhtml+xml"/>
+    <item id="ch11" href="ch11.html" media-type="application/xhtml+xml"/>
+    <item id="ch12" href="ch12.html" media-type="application/xhtml+xml"/>
+    <item id="ch13" href="ch13.html" media-type="application/xhtml+xml"/>
+    <item id="ch14" href="ch14.html" media-type="application/xhtml+xml"/>
+    <item id="ch15" href="ch15.html" media-type="application/xhtml+xml"/>
+    <item id="ch16" href="ch16.html" media-type="application/xhtml+xml"/>
+    <item id="ch16a" href="ch16a.html" media-type="application/xhtml+xml"/>
+    <item id="ch17" href="ch17.html" media-type="application/xhtml+xml"/>
+    <item id="ch18" href="ch18.html" media-type="application/xhtml+xml"/>
+    <item id="part01" href="part01.html" media-type="application/xhtml+xml"/>
+    <item id="app01" href="app01.html" media-type="application/xhtml+xml"/>
+    <item id="app02" href="app02.html" media-type="application/xhtml+xml"/>
+    <item id="app03" href="app03.html" media-type="application/xhtml+xml"/>
+    <item id="app04" href="app04.html" media-type="application/xhtml+xml"/>
+    <item id="app05" href="app05.html" media-type="application/xhtml+xml"/>
+    <item id="app06" href="app06.html" media-type="application/xhtml+xml"/>
+    <item id="app07" href="app07.html" media-type="application/xhtml+xml"/>
+    <item id="app08" href="app08.html" media-type="application/xhtml+xml"/>
+    <item id="app09" href="app09.html" media-type="application/xhtml+xml"/>
+    <item id="app10" href="app10.html" media-type="application/xhtml+xml"/>
+    <item id="index" href="index.html" media-type="application/xhtml+xml"/>
+    <item id="index1" href="index1.html" media-type="application/xhtml+xml"/>
+    <item id="footnotes" href="footnotes.html" media-type="application/xhtml+xml"/>
+    <item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    <item id="css" href="0132781174.css" media-type="text/css"/>
+    <item id="cover-image" href="graphics/0132781174.jpg" media-type="image/jpeg"/>
+    <item id="a01fig01" href="graphics/01fig01.jpg" media-type="image/jpeg"/>
+    <item id="a01fig02" href="graphics/01fig02.jpg" media-type="image/jpeg"/>
+    <item id="a01fig03" href="graphics/01fig03.jpg" media-type="image/jpeg"/>
+    <item id="a01fig04" href="graphics/01fig04.jpg" media-type="image/jpeg"/>
+    <item id="a01tab01" href="graphics/01tab01.jpg" media-type="image/jpeg"/>
+    <item id="a02fig01" href="graphics/02fig01.jpg" media-type="image/jpeg"/>
+    <item id="a02fig02" href="graphics/02fig02.jpg" media-type="image/jpeg"/>
+    <item id="a02fig03" href="graphics/02fig03.jpg" media-type="image/jpeg"/>
+    <item id="a02fig04" href="graphics/02fig04.jpg" media-type="image/jpeg"/>
+    <item id="a02fig05" href="graphics/02fig05.jpg" media-type="image/jpeg"/>
+    <item id="a02fig06" href="graphics/02fig06.jpg" media-type="image/jpeg"/>
+    <item id="a02fig07" href="graphics/02fig07.jpg" media-type="image/jpeg"/>
+    <item id="a02fig08" href="graphics/02fig08.jpg" media-type="image/jpeg"/>
+    <item id="a02fig09" href="graphics/02fig09.jpg" media-type="image/jpeg"/>
+    <item id="a02tab01" href="graphics/02tab01.jpg" media-type="image/jpeg"/>
+    <item id="a03fig01" href="graphics/03fig01.jpg" media-type="image/jpeg"/>
+    <item id="a03fig02" href="graphics/03fig02.jpg" media-type="image/jpeg"/>
+    <item id="a03fig03" href="graphics/03fig03.jpg" media-type="image/jpeg"/>
+    <item id="a03fig04" href="graphics/03fig04.jpg" media-type="image/jpeg"/>
+    <item id="a03tab01" href="graphics/03tab01.jpg" media-type="image/jpeg"/>
+    <item id="a03tab02" href="graphics/03tab02.jpg" media-type="image/jpeg"/>
+    <item id="a03tab03" href="graphics/03tab03.jpg" media-type="image/jpeg"/>
+    <item id="a04fig01" href="graphics/04fig01.jpg" media-type="image/jpeg"/>
+    <item id="a04fig02" href="graphics/04fig02.jpg" media-type="image/jpeg"/>
+    <item id="a04fig03" href="graphics/04fig03.jpg" media-type="image/jpeg"/>
+    <item id="a04fig04" href="graphics/04fig04.jpg" media-type="image/jpeg"/>
+    <item id="a04fig05" href="graphics/04fig05.jpg" media-type="image/jpeg"/>
+    <item id="a04fig06" href="graphics/04fig06.jpg" media-type="image/jpeg"/>
+    <item id="a04fig07" href="graphics/04fig07.jpg" media-type="image/jpeg"/>
+    <item id="a04fig08" href="graphics/04fig08.jpg" media-type="image/jpeg"/>
+    <item id="a04fig09" href="graphics/04fig09.jpg" media-type="image/jpeg"/>
+    <item id="a04fig10" href="graphics/04fig10.jpg" media-type="image/jpeg"/>
+    <item id="a04fig11" href="graphics/04fig11.jpg" media-type="image/jpeg"/>
+    <item id="a05fig01" href="graphics/05fig01.jpg" media-type="image/jpeg"/>
+    <item id="a05fig02" href="graphics/05fig02.jpg" media-type="image/jpeg"/>
+    <item id="a05fig03" href="graphics/05fig03.jpg" media-type="image/jpeg"/>
+    <item id="a05fig04" href="graphics/05fig04.jpg" media-type="image/jpeg"/>
+    <item id="a05fig05" href="graphics/05fig05.jpg" media-type="image/jpeg"/>
+    <item id="a05fig06" href="graphics/05fig06.jpg" media-type="image/jpeg"/>
+    <item id="a05tab01" href="graphics/05tab01.jpg" media-type="image/jpeg"/>
+    <item id="a05tab02" href="graphics/05tab02.jpg" media-type="image/jpeg"/>
+    <item id="a05tab03" href="graphics/05tab03.jpg" media-type="image/jpeg"/>
+    <item id="a06fig01" href="graphics/06fig01.jpg" media-type="image/jpeg"/>
+    <item id="a06fig02" href="graphics/06fig02.jpg" media-type="image/jpeg"/>
+    <item id="a06fig03" href="graphics/06fig03.jpg" media-type="image/jpeg"/>
+    <item id="a06fig04" href="graphics/06fig04.jpg" media-type="image/jpeg"/>
+    <item id="a06tab01" href="graphics/06tab01.jpg" media-type="image/jpeg"/>
+    <item id="a06tab02" href="graphics/06tab02.jpg" media-type="image/jpeg"/>
+    <item id="a06tab03" href="graphics/06tab03.jpg" media-type="image/jpeg"/>
+    <item id="a06tab04" href="graphics/06tab04.jpg" media-type="image/jpeg"/>
+    <item id="a07fig01" href="graphics/07fig01.jpg" media-type="image/jpeg"/>
+    <item id="a07fig02" href="graphics/07fig02.jpg" media-type="image/jpeg"/>
+    <item id="a07fig03" href="graphics/07fig03.jpg" media-type="image/jpeg"/>
+    <item id="a07fig04" href="graphics/07fig04.jpg" media-type="image/jpeg"/>
+    <item id="a07fig05" href="graphics/07fig05.jpg" media-type="image/jpeg"/>
+    <item id="a07fig06" href="graphics/07fig06.jpg" media-type="image/jpeg"/>
+    <item id="a07fig07" href="graphics/07fig07.jpg" media-type="image/jpeg"/>
+    <item id="a08fig01" href="graphics/08fig01.jpg" media-type="image/jpeg"/>
+    <item id="a08fig02" href="graphics/08fig02.jpg" media-type="image/jpeg"/>
+    <item id="a08tab01" href="graphics/08tab01.jpg" media-type="image/jpeg"/>
+    <item id="a09fig01" href="graphics/09fig01.jpg" media-type="image/jpeg"/>
+    <item id="a09fig02" href="graphics/09fig02.jpg" media-type="image/jpeg"/>
+    <item id="a09fig03" href="graphics/09fig03.jpg" media-type="image/jpeg"/>
+    <item id="a09fig04" href="graphics/09fig04.jpg" media-type="image/jpeg"/>
+    <item id="a09fig05" href="graphics/09fig05.jpg" media-type="image/jpeg"/>
+    <item id="a09fig06" href="graphics/09fig06.jpg" media-type="image/jpeg"/>
+    <item id="a09tab01" href="graphics/09tab01.jpg" media-type="image/jpeg"/>
+    <item id="a10fig01" href="graphics/10fig01.jpg" media-type="image/jpeg"/>
+    <item id="a10fig02" href="graphics/10fig02.jpg" media-type="image/jpeg"/>
+    <item id="a10fig03" href="graphics/10fig03.jpg" media-type="image/jpeg"/>
+    <item id="a10fig04" href="graphics/10fig04.jpg" media-type="image/jpeg"/>
+    <item id="a11fig01" href="graphics/11fig01.jpg" media-type="image/jpeg"/>
+    <item id="a11fig02" href="graphics/11fig02.jpg" media-type="image/jpeg"/>
+    <item id="a11fig03" href="graphics/11fig03.jpg" media-type="image/jpeg"/>
+    <item id="a11tab01" href="graphics/11tab01.jpg" media-type="image/jpeg"/>
+    <item id="a1216tab01" href="graphics/1216tab01.jpg" media-type="image/jpeg"/>
+    <item id="a1216tab02" href="graphics/1216tab02.jpg" media-type="image/jpeg"/>
+    <item id="a1217tab01" href="graphics/1217tab01.jpg" media-type="image/jpeg"/>
+    <item id="a12fig01" href="graphics/12fig01.jpg" media-type="image/jpeg"/>
+    <item id="a12fig02" href="graphics/12fig02.jpg" media-type="image/jpeg"/>
+    <item id="a12fig03" href="graphics/12fig03.jpg" media-type="image/jpeg"/>
+    <item id="a12fig04" href="graphics/12fig04.jpg" media-type="image/jpeg"/>
+    <item id="a12fig05" href="graphics/12fig05.jpg" media-type="image/jpeg"/>
+    <item id="a12fig06" href="graphics/12fig06.jpg" media-type="image/jpeg"/>
+    <item id="a12fig07" href="graphics/12fig07.jpg" media-type="image/jpeg"/>
+    <item id="a12fig08" href="graphics/12fig08.jpg" media-type="image/jpeg"/>
+    <item id="a12fig09" href="graphics/12fig09.jpg" media-type="image/jpeg"/>
+    <item id="a12fig10" href="graphics/12fig10.jpg" media-type="image/jpeg"/>
+    <item id="a12fig11" href="graphics/12fig11.jpg" media-type="image/jpeg"/>
+    <item id="a1356tab01" href="graphics/1356tab01.jpg" media-type="image/jpeg"/>
+    <item id="a13fig01" href="graphics/13fig01.jpg" media-type="image/jpeg"/>
+    <item id="a13fig02" href="graphics/13fig02.jpg" media-type="image/jpeg"/>
+    <item id="a13fig03" href="graphics/13fig03.jpg" media-type="image/jpeg"/>
+    <item id="a13fig04" href="graphics/13fig04.jpg" media-type="image/jpeg"/>
+    <item id="a13fig05" href="graphics/13fig05.jpg" media-type="image/jpeg"/>
+    <item id="a13tab01" href="graphics/13tab01.jpg" media-type="image/jpeg"/>
+    <item id="a14fig01" href="graphics/14fig01.jpg" media-type="image/jpeg"/>
+    <item id="a14fig02" href="graphics/14fig02.jpg" media-type="image/jpeg"/>
+    <item id="a14fig03" href="graphics/14fig03.jpg" media-type="image/jpeg"/>
+    <item id="a14fig04" href="graphics/14fig04.jpg" media-type="image/jpeg"/>
+    <item id="a14fig05" href="graphics/14fig05.jpg" media-type="image/jpeg"/>
+    <item id="a14tab01" href="graphics/14tab01.jpg" media-type="image/jpeg"/>
+    <item id="a15fig01" href="graphics/15fig01.jpg" media-type="image/jpeg"/>
+    <item id="a15fig02" href="graphics/15fig02.jpg" media-type="image/jpeg"/>
+    <item id="a15fig03" href="graphics/15fig03.jpg" media-type="image/jpeg"/>
+    <item id="a15fig04" href="graphics/15fig04.jpg" media-type="image/jpeg"/>
+    <item id="a15tab01" href="graphics/15tab01.jpg" media-type="image/jpeg"/>
+    <item id="a16fig01" href="graphics/16fig01.jpg" media-type="image/jpeg"/>
+    <item id="a16fig02" href="graphics/16fig02.jpg" media-type="image/jpeg"/>
+    <item id="a16fig03" href="graphics/16fig03.jpg" media-type="image/jpeg"/>
+    <item id="a16fig04" href="graphics/16fig04.jpg" media-type="image/jpeg"/>
+    <item id="a16tab01" href="graphics/16tab01.jpg" media-type="image/jpeg"/>
+    <item id="a16tab02" href="graphics/16tab02.jpg" media-type="image/jpeg"/>
+    <item id="a16tab03" href="graphics/16tab03.jpg" media-type="image/jpeg"/>
+    <item id="a16tab04" href="graphics/16tab04.jpg" media-type="image/jpeg"/>
+    <item id="a16tab05" href="graphics/16tab05.jpg" media-type="image/jpeg"/>
+    <item id="a16tab06" href="graphics/16tab06.jpg" media-type="image/jpeg"/>
+    <item id="a16tab07" href="graphics/16tab07.jpg" media-type="image/jpeg"/>
+    <item id="a16tab08" href="graphics/16tab08.jpg" media-type="image/jpeg"/>
+    <item id="a16tab09" href="graphics/16tab09.jpg" media-type="image/jpeg"/>
+    <item id="a16tab10" href="graphics/16tab10.jpg" media-type="image/jpeg"/>
+    <item id="a16tab11" href="graphics/16tab11.jpg" media-type="image/jpeg"/>
+    <item id="a16tab12" href="graphics/16tab12.jpg" media-type="image/jpeg"/>
+    <item id="a17fig01" href="graphics/17fig01.jpg" media-type="image/jpeg"/>
+    <item id="a17fig02" href="graphics/17fig02.jpg" media-type="image/jpeg"/>
+    <item id="a17fig03" href="graphics/17fig03.jpg" media-type="image/jpeg"/>
+    <item id="a17fig04" href="graphics/17fig04.jpg" media-type="image/jpeg"/>
+    <item id="a17fig05" href="graphics/17fig05.jpg" media-type="image/jpeg"/>
+    <item id="a17fig06" href="graphics/17fig06.jpg" media-type="image/jpeg"/>
+    <item id="a17fig07" href="graphics/17fig07.jpg" media-type="image/jpeg"/>
+    <item id="a17tab01" href="graphics/17tab01.jpg" media-type="image/jpeg"/>
+    <item id="a17tab02" href="graphics/17tab02.jpg" media-type="image/jpeg"/>
+    <item id="a17tab03" href="graphics/17tab03.jpg" media-type="image/jpeg"/>
+    <item id="a17tab04" href="graphics/17tab04.jpg" media-type="image/jpeg"/>
+    <item id="a17tab05" href="graphics/17tab05.jpg" media-type="image/jpeg"/>
+    <item id="a17tab06" href="graphics/17tab06.jpg" media-type="image/jpeg"/>
+    <item id="a17tab07" href="graphics/17tab07.jpg" media-type="image/jpeg"/>
+    <item id="a17tab08" href="graphics/17tab08.jpg" media-type="image/jpeg"/>
+    <item id="a318equ01" href="graphics/318equ01.jpg" media-type="image/jpeg"/>
+    <item id="a573tab01" href="graphics/573tab01.jpg" media-type="image/jpeg"/>
+    <item id="a574tab01" href="graphics/574tab01.jpg" media-type="image/jpeg"/>
+    <item id="thumbnail" href="graphics/81174.jpg" media-type="image/jpeg"/>
+    <item id="a869tab01" href="graphics/869tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-a-tab01" href="graphics/app-a-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-a-tab02" href="graphics/app-a-tab02.jpg" media-type="image/jpeg"/>
+    <item id="aapp-b-tab01" href="graphics/app-b-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-b-tab02" href="graphics/app-b-tab02.jpg" media-type="image/jpeg"/>
+    <item id="aapp-c-tab01" href="graphics/app-c-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-c-tab01a" href="graphics/app-c-tab01a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-c-tab01b" href="graphics/app-c-tab01b.jpg" media-type="image/jpeg"/>
+    <item id="aapp-c-tab01c" href="graphics/app-c-tab01c.jpg" media-type="image/jpeg"/>
+    <item id="aapp-c-tab01d" href="graphics/app-c-tab01d.jpg" media-type="image/jpeg"/>
+    <item id="aapp-d-tab01" href="graphics/app-d-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-d-tab01a" href="graphics/app-d-tab01a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-d-tab01b" href="graphics/app-d-tab01b.jpg" media-type="image/jpeg"/>
+    <item id="aapp-e-tab01" href="graphics/app-e-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-e-tab02" href="graphics/app-e-tab02.jpg" media-type="image/jpeg"/>
+    <item id="aapp-e-tab03" href="graphics/app-e-tab03.jpg" media-type="image/jpeg"/>
+    <item id="aapp-e-tab04" href="graphics/app-e-tab04.jpg" media-type="image/jpeg"/>
+    <item id="aapp-f-tab01" href="graphics/app-f-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-f-tab02" href="graphics/app-f-tab02.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab01" href="graphics/app-g-tab01.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab02" href="graphics/app-g-tab02.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab03" href="graphics/app-g-tab03.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab04" href="graphics/app-g-tab04.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab05" href="graphics/app-g-tab05.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab05a" href="graphics/app-g-tab05a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab06" href="graphics/app-g-tab06.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab07" href="graphics/app-g-tab07.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab08" href="graphics/app-g-tab08.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab09" href="graphics/app-g-tab09.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab10" href="graphics/app-g-tab10.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab10a" href="graphics/app-g-tab10a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab11" href="graphics/app-g-tab11.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab12" href="graphics/app-g-tab12.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab12a" href="graphics/app-g-tab12a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab13" href="graphics/app-g-tab13.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab13a" href="graphics/app-g-tab13a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab14" href="graphics/app-g-tab14.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab14a" href="graphics/app-g-tab14a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab14b" href="graphics/app-g-tab14b.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab15" href="graphics/app-g-tab15.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab15a" href="graphics/app-g-tab15a.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab15b" href="graphics/app-g-tab15b.jpg" media-type="image/jpeg"/>
+    <item id="aapp-g-tab16" href="graphics/app-g-tab16.jpg" media-type="image/jpeg"/>
+    <item id="apub" href="graphics/pub.jpg" media-type="image/jpeg"/>
+    <item id="axafig01" href="graphics/xafig01.jpg" media-type="image/jpeg"/>
+    <item id="axefig01" href="graphics/xefig01.jpg" media-type="image/jpeg"/>
+    <item id="axefig02" href="graphics/xefig02.jpg" media-type="image/jpeg"/>
+    <item id="axefig03" href="graphics/xefig03.jpg" media-type="image/jpeg"/>
+    <item id="axefig04" href="graphics/xefig04.jpg" media-type="image/jpeg"/>
+    <item id="axefig05" href="graphics/xefig05.jpg" media-type="image/jpeg"/>
+    <item id="axefig06" href="graphics/xefig06.jpg" media-type="image/jpeg"/>
+    <item id="font6" href="fonts/ARIALUNI.ttf" media-type="application/x-font-ttf"/>
+    <item id="font1" href="fonts/cour.ttf" media-type="application/x-font-ttf"/>
+    <item id="font2" href="fonts/courbd.ttf" media-type="application/x-font-ttf"/>
+    <item id="font3" href="fonts/courbi.ttf" media-type="application/x-font-ttf"/>
+    <item id="font4" href="fonts/couri.ttf" media-type="application/x-font-ttf"/>
+    <item id="font5" href="fonts/times.ttf" media-type="application/x-font-ttf"/>
+    <item id="pt" href="page-template.xpgt" media-type="application/vnd.adobe-page-template+xml"/>
+  </manifest>
+  <spine toc="ncxtoc">
+    <itemref idref="cover"/>
+    <itemref idref="pre01"/>
+    <itemref idref="title"/>
+    <itemref idref="copy"/>
+    <itemref idref="ded01"/>
+    <itemref idref="toc"/>
+    <itemref idref="toc1"/>
+    <itemref idref="pre02"/>
+    <itemref idref="pre03"/>
+    <itemref idref="pre04"/>
+    <itemref idref="pre05"/>
+    <itemref idref="ch00"/>
+    <itemref idref="ch01"/>
+    <itemref idref="ch02"/>
+    <itemref idref="ch03"/>
+    <itemref idref="ch04"/>
+    <itemref idref="ch05"/>
+    <itemref idref="ch06"/>
+    <itemref idref="ch07"/>
+    <itemref idref="ch08"/>
+    <itemref idref="ch09"/>
+    <itemref idref="ch10"/>
+    <itemref idref="ch11"/>
+    <itemref idref="ch12"/>
+    <itemref idref="ch13"/>
+    <itemref idref="ch14"/>
+    <itemref idref="ch15"/>
+    <itemref idref="ch16"/>
+    <itemref idref="ch16a"/>
+    <itemref idref="ch17"/>
+    <itemref idref="ch18"/>
+    <itemref idref="part01"/>
+    <itemref idref="app01"/>
+    <itemref idref="app02"/>
+    <itemref idref="app03"/>
+    <itemref idref="app04"/>
+    <itemref idref="app05"/>
+    <itemref idref="app06"/>
+    <itemref idref="app07"/>
+    <itemref idref="app08"/>
+    <itemref idref="app09"/>
+    <itemref idref="app10"/>
+    <itemref idref="index"/>
+    <itemref idref="index1"/>
+    <itemref idref="footnotes"/>
+  </spine>
+  <guide>
+    <reference href="bk01-toc.html" type="toc" title="Table of Contents"/>
+  </guide>
+</package>

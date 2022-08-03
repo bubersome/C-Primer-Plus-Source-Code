@@ -1,0 +1,370 @@
+@font-face { font-family: "Courier New"; src: url(fonts/cour.ttf); }
+@font-face { font-family: "Courier New Bold"; src: url(fonts/courbd.ttf); }
+@font-face { font-family: "Courier New Italic"; src: url(fonts/couri.ttf); }
+@font-face { font-family: "Courier New Bold Italic"; src: url(fonts/courbi.ttf); }
+@font-face { font-family: "Times New Roman"; src: url(fonts/times.ttf); }
+@font-face { font-family: "Arial Unicode"; src: url(fonts/ARIALUNI.ttf); }
+
+body
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-right: 15pt;
+}
+.cover
+{
+     margin-top: 2pt;
+     margin-bottom: 2pt;
+     text-align: center;
+}
+h1
+{
+     margin-top: 10pt;
+     text-align: center;
+     margin-bottom: 12pt;
+     font-weight: bold;
+}
+h2
+{
+     margin-top: 7pt;
+     margin-bottom: 25pt;
+     font-weight: bold;
+}
+h3
+{
+     margin-top: 9pt;
+     margin-bottom: 8pt;
+     font-weight: bold;
+}
+h4
+{
+     margin-top: 9pt;
+     margin-bottom: 6pt;
+     font-weight: bold;
+}
+h5
+{
+     margin-top: 9pt;
+     margin-bottom: 6pt;
+     font-weight: bold;
+}
+h6
+{
+     margin-top: 9pt;
+     margin-bottom: 6pt;
+     font-weight: bold;
+}
+.copy
+{
+     margin-top: 8pt;
+     margin-bottom: 8pt;
+     text-indent: 0.024pt;
+}
+p
+{
+     margin-top: 5pt;
+     margin-bottom: 4pt;
+     text-indent: .002pt;
+}
+code
+{
+     font-family: "Courier New";
+     font-size: small;
+}
+.image
+{
+     margin-top: 5pt;
+     margin-bottom: 5pt;
+     text-align: center;
+}
+.caption
+{
+     font-size: medium;
+     margin-top: 4pt;
+     margin-bottom: 8pt;
+     text-align: center;
+}
+.caption1
+{
+     font-size: medium;
+     margin-top: 10pt;
+     margin-bottom: 5pt;
+}
+.indenthandingB
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 21pt;
+     text-indent: -9pt;
+}
+.indenthandingBP
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 21pt;
+}
+.indenthandingN
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+     text-indent: -13pt;
+}
+.programlisting
+{
+     font-family: "Courier New";
+     font-size: small;
+     margin-top: 10pt;
+     margin-bottom: 10pt;
+     margin-left: 5pt;
+}
+.programlistingB
+{
+     font-family: "Courier New";
+     font-size: small;
+     margin-top: 10pt;
+     margin-bottom: 10pt;
+     margin-left: 24pt;
+}
+.footnote
+{
+     margin-top: 15pt;
+     margin-bottom: 4pt;
+     font-size: 80%;
+     margin-left: 23pt;
+     text-indent: -10pt;
+}
+.indent1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 25pt;
+}
+.address
+{
+     text-align: center;
+}
+.author
+{
+     text-align: center;
+     font-weight: bold;
+     margin-top: 80pt;
+     margin-bottom: 80pt;
+}
+.publisher
+{
+     text-align: center;
+     margin-top: 100pt;
+     margin-bottom: 3pt;
+}
+.h3
+{
+     margin-top: 9pt;
+     margin-bottom: 8pt;
+     font-weight: bold;
+}
+.note
+{
+     margin-top: 6pt;
+     margin-bottom: 12pt;
+     margin-left: 24pt;
+     margin-right: 24pt;
+}
+.notepara
+{
+     margin-top: 4pt;
+     margin-bottom: 5pt;
+     margin-left: 12pt;
+}
+.sidebar
+{
+     font-size: small;
+     margin-top: 5pt;
+     margin-bottom: 12pt;
+     margin-left: 15pt;
+}
+.sidebarpara
+{
+     margin-top: 4pt;
+     margin-bottom: 5pt;
+     margin-left: 12pt;
+}
+.toc-chapter
+{
+     margin-top: 8pt;
+     margin-bottom: 5pt;
+     margin-left: 6pt;
+     text-indent: 6pt;
+}
+.toc-chapter1
+{
+     margin-top: 5pt;
+     margin-bottom: 5pt;
+     margin-left: 12pt;
+     text-indent: 12pt;
+}
+.toc-chapter2
+{
+     margin-top: 8pt;
+     margin-bottom: 4pt;
+     margin-left: 3pt;
+     text-indent: 3pt;
+}
+.toc-appendix
+{
+     margin-top: 14pt;
+     margin-bottom: 14pt;
+}
+.toc-section
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 12pt;
+     text-indent: 12pt;
+}
+.indexmain
+{
+     margin-top: 2pt;
+     margin-bottom: 2pt;
+}
+.indexsub
+{
+     margin-top: 2pt;
+     margin-bottom: 2pt;
+     margin-left: 15pt;
+     text-indent: 15pt;
+}
+.indexsubsub
+{
+     margin-top: 2pt;
+     margin-bottom: 2pt;
+     margin-left: 25pt;
+     text-indent: 25pt;
+}
+.ded
+{
+     text-align: center;
+     margin-top: 20pt;
+     margin-bottom: 4pt;
+     margin-left: 25pt;
+}
+.indent
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 50pt;
+     text-indent: -40pt;
+}
+.indenthanding
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 13pt;
+}
+.title
+{
+     margin-top: 9pt;
+     margin-bottom: 8pt;
+     font-weight: bold;
+}
+.programlisting1
+{
+     font-family: "Courier New";
+     font-size: small;
+     margin-top: 10pt;
+     margin-bottom: 10pt;
+}
+.answer
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+     text-indent: -13pt;
+}
+.answer1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+     text-indent: -20pt;
+}
+.question
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+     text-indent: -13pt;
+}
+.question1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 24pt;
+     text-indent: -19pt;
+}
+.questionp
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+}
+.indenthandinga
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 37pt;
+     text-indent: -13pt;
+}
+.indenthandinga1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 40pt;
+}
+.indenthanding1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 23pt;
+}
+.programlistingB1
+{
+     font-family: "Courier New";
+     font-size: small;
+     margin-top: 10pt;
+     margin-bottom: 10pt;
+     margin-left: 38pt;
+}
+.indenthandingB1
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 51pt;
+     text-indent: -9pt;
+}
+.EmpStrong
+{
+     font-family: "Courier New Bold";
+     font-weight: bold;
+}
+.EmpItalic
+{
+     font-family: "Courier New Bold";
+     font-style: italic;
+}
+.indenthandingNB
+{
+     margin-top: 4pt;
+     margin-bottom: 4pt;
+     margin-left: 40pt;
+     text-indent: -9pt;
+}
+.romanAlt
+{
+     font-family: "Times New Roman";
+}
+.ent
+{
+     font-family: "Arial Unicode";
+     src: url(../fonts/ARIALUNI.ttf);
+}

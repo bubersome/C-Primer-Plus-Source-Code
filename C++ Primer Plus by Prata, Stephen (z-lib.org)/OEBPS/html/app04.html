@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>D. Operator Precedence</title>
+<link rel="stylesheet" type="text/css" href="0132781174.css"/>
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="page-template.xpgt"/>
+</head>
+<body>
+<h2 id="app04">D. Operator Precedence</h2>
+<p><a id="page_1231"/>Operator precedence determines the order in which operators are applied to a value. C++ operators come in 18 precedence groups, which are presented in <a href="#app04table01">Table D.1</a>. Those in Group 1 have the highest precedence, those in Group 2 have the next-highest precedence, and so on. If two operators apply to the same operand (something on which an operator operates), the operator with the higher precedence applies first. If the two operators have the same precedence, C++ uses associativity rules to determine which operator binds more tightly. All operators in the same group have the same precedence and the same associativity, which is either left-to-right (L&#8211;R in the table) or right-to-left (R&#8211;L in the table). Left-to-right associativity means to apply the leftmost operator first, and right-to-left associativity means to apply the rightmost operator first.</p>
+<p class="caption"><a id="app04table01"/><strong>Table D.1. C++ Operator Precedence and Associativity</strong></p>
+<p class="image"><a id="page_1232"/><img src="graphics/app-d-tab01.jpg" alt="Image"/></p>
+<p class="image"><a id="page_1233"/><img src="graphics/app-d-tab01a.jpg" alt="Image"/></p>
+<p class="image"><img src="graphics/app-d-tab01b.jpg" alt="Image"/></p>
+<p><a id="page_1234"/>Some symbols, such as <code>*</code> and <code>&#38;</code>, are used for more than one operator. In such cases, one form is <em><code>unary</code></em> (one operand), and the other form is <em><code>binary</code></em> (two operands), and the compiler uses the context to determine which is meant. <a href="#app04table01">Table D.1</a> labels operator groups unary or binary for those cases in which the same symbol is used two ways.</p>
+<p>The following are some examples of precedence and associativity.</p>
+<p>Here&#8217;s an example in which the compiler has to decide whether to add 5 to 3 or multiply 5 by 6:</p>
+<p class="programlisting">3 + 5 * 6</p>
+<p>The * operator has higher precedence than the + operator, so it is applied to the 5 first, making the expression <code>3 + 30</code>, or <code>33</code>.</p>
+<p>Here&#8217;s an example in which the compiler has to decide whether to divide 6 into 120 or multiply 6 by 5:</p>
+<p class="programlisting">120 / 6 * 5</p>
+<p>Both <code>/</code> and * have the same precedence, but these operators associate from left to right. That means the operator to the left of the shared operand (<code>6</code>) is applied first, so the expression becomes <code>20 * 5</code>, or <code>100</code>.</p>
+<p>Here&#8217;s an example in which the compiler has to decide whether to begin by incrementing <code>str</code> or by dereferencing <code>str</code>:</p>
+<p class="programlisting">char * str = "Whoa";<br/>char ch = *str++;</p>
+<p>The postfix <code>++</code> operator has higher precedence than the unary <code>*</code> operator. This means the increment operator operates on <code>str</code> and not <code>*str</code>. That is, the operation increments the pointer, making it point to the next character, rather than altering the character pointed to. However, because <code>++</code> is the postfix form, the pointer is incremented after the original value of <code>*str</code> is assigned to <code>ch</code>. Therefore, this expression assigns the character <code>W</code> to <code>ch</code> and then moves <code>str</code> to point to the <code>h</code> character.</p>
+<p>Here&#8217;s a similar example:</p>
+<p class="programlisting">char * str = "Whoa";<br/>char ch = *++str;</p>
+<p>The prefix <code>++</code> operator and the unary <code>*</code> operator have the same precedence, but they associate right-to-left. So, again, <code>str</code> and not <code>*str</code> is incremented. Because the <code>++</code> operator is in prefix form, first <code>str</code> is incremented, and then the resulting pointer is dereferenced. Thus, <code>str</code> moves to point to the <code>h</code> character, and the <code>h</code> character is assigned to <code>ch</code>.</p>
+<p>Note that <a href="#app04table01">Table D.1</a> uses <em><code>binary</code></em> or <em><code>unary</code></em> in the &#8220;Precedence&#8221; column to distinguish between two operators that use the same symbol, such as the unary address operator and the binary bitwise AND operator.</p>
+<p><a href="app02.html#app02">Appendix B</a>, &#8220;<a href="app02.html#app02">C++ Reserved words</a>,&#8221; lists alternative representations for some of the operators.</p>
+</body>
+</html>

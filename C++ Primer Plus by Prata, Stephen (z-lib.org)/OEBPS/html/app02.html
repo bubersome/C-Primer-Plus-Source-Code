@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>B. C++ Reserved Words</title>
+<link rel="stylesheet" type="text/css" href="0132781174.css"/>
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="page-template.xpgt"/>
+</head>
+<body>
+<h2 id="app02">B. C++ Reserved Words</h2>
+<p><a id="page_1221"/>C++ reserves some words for its own use and for use in C++ libraries. You shouldn&#8217;t use a reserved word as an identifier in a declaration. Reserved words come in three categories: keywords, alternative tokens, and C++ library reserved names.</p>
+<h3 id="app02lev1sec1">C++ Keywords</h3>
+<p><em>Keywords</em> are identifiers that form the vocabulary of a programming language. They may not be used for other purposes, such as serving as variable names. <a href="#app02table01">Table B.1</a> shows C++&#8217;s keywords. Keywords shown in boldface are also keywords in ANSI C99. Keywords in italics are C++11 additions.</p>
+<p class="caption"><a id="app02table01"/><strong>Table B.1. C++ Keywords</strong></p>
+<p class="image"><img src="graphics/app-b-tab01.jpg" alt="Image"/></p>
+<h3 id="app02lev1sec2">Alternative Tokens</h3>
+<p><a id="page_1222"/>In addition to keywords, C++ has some alphabetic alternative representations of operators, termed <em>alternative tokens</em>. These, too, are reserved. <a href="#app02table02">Table B.2</a> lists the alphabetic alternative tokens and the operators they represent.</p>
+<p class="caption"><a id="app02table02"/><strong>Table B.2. C++ Reserved Alternative Tokens and Their Meanings</strong></p>
+<p class="image"><img src="graphics/app-b-tab02.jpg" alt="Image"/></p>
+<h3 id="app02lev1sec3">C++ Library Reserved Names</h3>
+<p>The compiler won&#8217;t let you use keywords and alternative tokens as names. There&#8217;s another class of forbidden names for which the protection is not as absolute&#8212;<em>reserved names</em>, which are names reserved for use by the C++ library. If you use one of these as an identifier, the effect is undefined. That is, it might generate a compiler error, it might generate a warning, it might cause a program to run incorrectly, or it might cause no problems at all.</p>
+<p>The C++ language reserves macro names used in a library header file. If a program includes a particular header file, then you shouldn&#8217;t use the names of macros defined in that header (or in headers included by that header file, and so on) for other purposes. For example, if you include the header file <code>&lt;climits&gt;</code> directly or indirectly, you shouldn&#8217;t use <code>CHAR_BIT</code> as an identifier because that name is already used as a macro in that header file.</p>
+<p>The C++ language reserves names beginning with two underscores or a single underscore followed by an uppercase letter for any use, and it reserves names beginning with a single underscore for use as a global variable. So don&#8217;t create names such as <code>__gink</code> or <code>__Lynx</code> in any case and names such as <code>_lynx</code> in the global namespace.</p>
+<p><a id="page_1223"/>The C++ language reserves names declared with external linkage in library header files. For functions, this includes the function signature (name and parameter list). For example, suppose you have this code:</p>
+<p class="programlisting">#include &lt;cmath&gt;<br/>using namespace std;</p>
+<p>In this case, the function signature <code>tan(double)</code> is reserved. That means your program should not declare a function that has this prototype:</p>
+<p class="programlisting">int tan(double);&#160;&#160;// don't do it</p>
+<p>This doesn&#8217;t match the library <code>tan()</code> prototype, which returns type <code>double</code>, but it does match the signature portion. However, it would be okay to have the following prototype:</p>
+<p class="programlisting">char * tan(char *);&#160;&#160;// ok</p>
+<p>That&#8217;s because even though it matches the <code>tan()</code> identifier, it doesn&#8217;t match the signature.</p>
+<h3 id="app02lev1sec4">Identifiers With Special Meaning</h3>
+<p>The C++ community is loath to add new keywords because they could conflict with existing code. That is why the standards committee has, for example, repurposed the <code>auto</code> keyword and provided more than one use for others, such as <code>virtual</code> and <code>delete</code>. C++11 has implemented another way to avoid adding keywords, and that is to use identifiers with special meanings. These identifiers, override and final, are not keywords, but they are used to implement language features. The compiler uses the context to determine whether they are used as ordinary identifiers or as language features:</p>
+<p class="programlisting">class F<br/>{<br/>&#160;&#160;&#160;&#160;int final;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// #1<br/>public:<br/>...<br/>&#160;&#160;&#160;&#160;virtual void unfold() {...} = final;&#160;&#160;// #2<br/>};</p>
+<p>Here the <code>final</code> on line #1 is used as an ordinary identifier, and the <code>final</code> on line #2 is used to invoke a language feature. The two uses do not conflict with one another.</p>
+<p>Also C++ has many identifiers that commonly appear in programs but that are not reserved. These include header file names, library function names, and <code>main</code>, the name of the required function with which execution begins. As long as you avoid namespace conflicts, you can use these identifiers for other purposes, although there is no reason to do so. That is, nothing except a lack of common sense prevents code like the following:</p>
+<p class="programlisting">// allowable but silly<br/>#include &lt;iostream&gt;<br/>int iostream(int a);<br/><a id="page_1224"/>int main ()<br/>{<br/>&#160;&#160;&#160;&#160;std::<br/>cout &lt;&lt; iostream(5) &lt;&lt; '\n';<br/>&#160;&#160;&#160;&#160;return 0;<br/>}<br/><br/>int iostream(int a)<br/>{<br/>&#160;&#160;&#160;&#160;int main = a + 1;<br/>&#160;&#160;&#160;&#160;int cout = a -1;<br/>&#160;&#160;&#160;&#160;return main*cout;<br/>}</p>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+<head>
+<meta name="dtb:uid" content="0132781174"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle>
+<text>C++ Primer Plus, Sixth Edition</text>
+</docTitle>
+<navMap>
+<navPoint id="pre01" playOrder="1">
+<navLabel>
+<text>Developer&#8217;s Library</text>
+</navLabel>
+<content src="pre01.html"/>
+</navPoint>
+<navPoint id="title" playOrder="2">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="title.html"/>
+</navPoint>
+<navPoint id="copy" playOrder="3">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="copyright.html"/>
+</navPoint>
+<navPoint id="ded01" playOrder="4">
+<navLabel>
+<text>Dedication</text>
+</navLabel>
+<content src="ded01.html"/>
+</navPoint>
+<navPoint id="toc" playOrder="5">
+<navLabel>
+<text>Contents at Glance</text>
+</navLabel>
+<content src="toc.html"/>
+</navPoint>
+<navPoint id="toc1" playOrder="6">
+<navLabel>
+<text>Table of Contents</text>
+</navLabel>
+<content src="bk01-toc.html"/>
+</navPoint>
+<navPoint id="pre02" playOrder="7">
+<navLabel>
+<text>Acknowledgments</text>
+</navLabel>
+<content src="pre02.html"/>
+</navPoint>
+<navPoint id="pre03" playOrder="8">
+<navLabel>
+<text>About the Author</text>
+</navLabel>
+<content src="pre03.html"/>
+</navPoint>
+<navPoint id="pre04" playOrder="9">
+<navLabel>
+<text>We Want to Hear from You!</text>
+</navLabel>
+<content src="pre04.html"/>
+</navPoint>
+<navPoint id="pre05" playOrder="10">
+<navLabel>
+<text>Reader Services</text>
+</navLabel>
+<content src="pre05.html"/>
+</navPoint>
+<navPoint id="ch00" playOrder="11">
+<navLabel>
+<text>Introduction</text>
+</navLabel>
+<content src="ch00.html"/>
+</navPoint>
+<navPoint id="ch01" playOrder="12">
+<navLabel>
+<text>1. Getting Started with C++</text>
+</navLabel>
+<content src="ch01.html"/>
+</navPoint>
+<navPoint id="ch02" playOrder="13">
+<navLabel>
+<text>2. Setting Out to C++</text>
+</navLabel>
+<content src="ch02.html"/>
+</navPoint>
+<navPoint id="ch03" playOrder="14">
+<navLabel>
+<text>3. Dealing with Data</text>
+</navLabel>
+<content src="ch03.html"/>
+</navPoint>
+<navPoint id="ch04" playOrder="15">
+<navLabel>
+<text>4. Compound Types</text>
+</navLabel>
+<content src="ch04.html"/>
+</navPoint>
+<navPoint id="ch05" playOrder="16">
+<navLabel>
+<text>5. Loops and Relational Expressions</text>
+</navLabel>
+<content src="ch05.html"/>
+</navPoint>
+<navPoint id="ch06" playOrder="17">
+<navLabel>
+<text>6. Branching Statements and Logical Operators</text>
+</navLabel>
+<content src="ch06.html"/>
+</navPoint>
+<navPoint id="ch07" playOrder="18">
+<navLabel>
+<text>7. Functions: C++&#8217;s Programming Modules</text>
+</navLabel>
+<content src="ch07.html"/>
+</navPoint>
+<navPoint id="ch08" playOrder="19">
+<navLabel>
+<text>8. Adventures in Functions</text>
+</navLabel>
+<content src="ch08.html"/>
+</navPoint>
+<navPoint id="ch09" playOrder="20">
+<navLabel>
+<text>9. Memory Models and Namespaces</text>
+</navLabel>
+<content src="ch09.html"/>
+</navPoint>
+<navPoint id="ch10" playOrder="21">
+<navLabel>
+<text>10. Objects and Classes</text>
+</navLabel>
+<content src="ch10.html"/>
+</navPoint>
+<navPoint id="ch11" playOrder="22">
+<navLabel>
+<text>11. Working with Classes</text>
+</navLabel>
+<content src="ch11.html"/>
+</navPoint>
+<navPoint id="ch12" playOrder="23">
+<navLabel>
+<text>12. Classes and Dynamic Memory Allocation</text>
+</navLabel>
+<content src="ch12.html"/>
+</navPoint>
+<navPoint id="ch13" playOrder="24">
+<navLabel>
+<text>13. Class Inheritance</text>
+</navLabel>
+<content src="ch13.html"/>
+</navPoint>
+<navPoint id="ch14" playOrder="25">
+<navLabel>
+<text>14. Reusing Code in C++</text>
+</navLabel>
+<content src="ch14.html"/>
+</navPoint>
+<navPoint id="ch15" playOrder="26">
+<navLabel>
+<text>15. Friends, Exceptions, and More</text>
+</navLabel>
+<content src="ch15.html"/>
+</navPoint>
+<navPoint id="ch16" playOrder="27">
+<navLabel>
+<text>16. The string Class and the Standard Template Library</text>
+</navLabel>
+<content src="ch16.html"/>
+</navPoint>
+<navPoint id="ch17" playOrder="28">
+<navLabel>
+<text>17. Input, Output, and Files</text>
+</navLabel>
+<content src="ch17.html"/>
+</navPoint>
+<navPoint id="ch18" playOrder="29">
+<navLabel>
+<text>18. Visiting with the New C++ Standard</text>
+</navLabel>
+<content src="ch18.html"/>
+</navPoint>
+<navPoint id="part01" playOrder="30">
+<navLabel>
+<text>Appendixes</text>
+</navLabel>
+<content src="part01.html"/>
+<navPoint id="app01" playOrder="31">
+<navLabel>
+<text>A. Number Bases</text>
+</navLabel>
+<content src="app01.html"/>
+</navPoint>
+<navPoint id="app02" playOrder="32">
+<navLabel>
+<text>B. C++ Reserved Words</text>
+</navLabel>
+<content src="app02.html"/>
+</navPoint>
+<navPoint id="app03" playOrder="33">
+<navLabel>
+<text>C. The ASCII Character Set</text>
+</navLabel>
+<content src="app03.html"/>
+</navPoint>
+<navPoint id="app04" playOrder="34">
+<navLabel>
+<text>D. Operator Precedence</text>
+</navLabel>
+<content src="app04.html"/>
+</navPoint>
+<navPoint id="app05" playOrder="35">
+<navLabel>
+<text>E. Other Operators</text>
+</navLabel>
+<content src="app05.html"/>
+</navPoint>
+<navPoint id="app06" playOrder="36">
+<navLabel>
+<text>F. The string Template Class</text>
+</navLabel>
+<content src="app06.html"/>
+</navPoint>
+<navPoint id="app07" playOrder="37">
+<navLabel>
+<text>G. The Standard Template Library Methods and Functions</text>
+</navLabel>
+<content src="app07.html"/>
+</navPoint>
+<navPoint id="app08" playOrder="38">
+<navLabel>
+<text>H. Selected Readings and Internet Resources</text>
+</navLabel>
+<content src="app08.html"/>
+</navPoint>
+<navPoint id="app09" playOrder="39">
+<navLabel>
+<text>I. Converting to ISO Standard C++</text>
+</navLabel>
+<content src="app09.html"/>
+</navPoint>
+<navPoint id="app10" playOrder="40">
+<navLabel>
+<text>J. Answers to Chapter Reviews</text>
+</navLabel>
+<content src="app10.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="index" playOrder="41">
+<navLabel>
+<text>Index</text>
+</navLabel>
+<content src="index.html"/>
+</navPoint>
+<navPoint id="footnotes" playOrder="42">
+<navLabel>
+<text>Footnotes</text>
+</navLabel>
+<content src="footnotes.html"/>
+</navPoint>
+</navMap>
+</ncx>

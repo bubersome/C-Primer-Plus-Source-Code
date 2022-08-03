@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>A. Number Bases</title>
+<link rel="stylesheet" type="text/css" href="0132781174.css"/>
+<link rel="stylesheet" type="application/vnd.adobe-page-template+xml" href="page-template.xpgt"/>
+</head>
+<body>
+<h2 id="app01">A. Number Bases</h2>
+<p><a id="page_1215"/>Civilizations have used many systems to represent numbers. Some systems, such as Roman numerals, are ill suited for doing arithmetic. On the other hand, the Hindi number system, modified and transmitted to Europe as the Arabic number system, facilitated calculations for mathematicians, scientists, and merchants. Modern computer number systems are based on the placeholder concept and use of zero that first appeared with the Hindi number system. However, they generalize the principles to other number bases. So although our everyday notation is based on the number 10, as described in the next section, the computing world often uses numbers based on 8 (octal), 16 (hexadecimal), and 2 (binary).</p>
+<h3 id="app01lev1sec1">Decimal Numbers (Base 10)</h3>
+<p>The method we use for writing numbers is based on powers of 10. For example, consider the number 2,468. The 2 represents 2 thousands, the 4 represents 4 hundreds, the 6 represents 6 tens, and the 8 represents 8 ones:</p>
+<p class="indenthanding">2,468 = 2&#215;1,000 + 4&#215;100 + 6&#215;10 + 8&#215;1</p>
+<p>One thousand is 10&#215;10&#215;10, which can be written as 10<sup>3</sup>, or 10 to the 3rd power. Using this notation, you can write the preceding relationship this way:</p>
+<p class="indenthanding">2,468 = 2&#215;10<sup>3</sup> + 4&#215;10<sup>2</sup> + 6&#215;10<sup>1</sup> + 8&#215;10<sup>0</sup></p>
+<p>Because this number notation is based on powers of 10, we refer to it as base 10, or decimal, notation. You can also use another number as a base. For example, C++ lets you use base 8 (octal) and base 16 (hexadecimal or hex) notation for writing integer numbers. (Note that 10<sup>0</sup> is 1, as is any nonzero number to the zero power.)</p>
+<h3 id="app01lev1sec2">Octal Integers (Base 8)</h3>
+<p>Octal numbers are based on powers of 8, so base 8 notation uses the digits 0&#8211;7 in writing numbers. C++ uses a 0 prefix to indicate octal notation. Thus, 0177 is an octal value. You can use powers of 8 to find the equivalent base 10 value:</p>
+<p class="image"><a id="page_1216"/><img src="graphics/1216tab01.jpg" alt="Image"/></p>
+<p>Because the Unix operating system often uses octal representation of values, C++ and C provide octal notation.</p>
+<h3 id="app01lev1sec3">Hexadecimal Numbers (Base 16)</h3>
+<p>Hexadecimal numbers are based on powers of 16. This means that 10 in hexadecimal represents the value 16 + 0, or 16. To represent the values between 9 and hexadecimal 16, you need a few more digits. Standard hexadecimal notation uses the letters a&#8211;f for that purpose. C++ accepts either lowercase or uppercase versions of these characters, as shown in <a href="#app01table01">Table A.1</a>.</p>
+<p class="caption"><a id="app01table01"/><strong>Table A.1. Hexadecimal Digits</strong></p>
+<p class="image"><img src="graphics/app-a-tab01.jpg" alt="Image"/></p>
+<p>C++ uses 0x or 0X notation to indicate hexadecimal notation. Thus, 0x2B3 is a hexadecimal value. To find the decimal equivalent of 0x2B3, you can evaluate the powers of 16:</p>
+<p class="image"><img src="graphics/1216tab02.jpg" alt="Image"/></p>
+<p>Hardware documentation often uses hexadecimal notation to represent values such as memory locations and port numbers.</p>
+<h3 id="app01lev1sec4">Binary Numbers (Base 2)</h3>
+<p><a id="page_1217"/>Whether you use decimal, octal, or hexadecimal notation for writing an integer, the computer stores it as a binary, or base 2, value. Binary notation uses just two digits, 0 and 1. For example, 10011011 is a binary number. Note, however, that C++ doesn&#8217;t provide for writing a number in binary notation. Binary numbers are based on powers of 2:</p>
+<p class="image"><img src="graphics/1217tab01.jpg" alt="Image"/></p>
+<p>Binary notation makes a nice match to computer memory, in which each individual unit, called a <em>bit</em>, can be set to off or on. You just identify the off setting with 0 and the on setting with 1. Memory is commonly organized in units called <em>bytes</em> or <em>octets</em>, with each byte being 8 bits. (As noted in <a href="ch02.html#ch02">Chapter 2</a> &#8220;<a href="ch02.html#ch02">Setting Out to C++</a>,&#8221; a C++ byte isn&#8217;t necessarily 8 bits, but this appendix will follow the common practice of using byte to mean octet.) The bits in a byte are numbered corresponding to the associated power of 2. Thus, the rightmost bit is bit number 0, the next bit is bit 1, and so on. For example, <a href="#app01fig01">Figure A.1</a> represents a 2-byte integer.</p>
+<p class="caption"><a id="app01fig01"/><strong>Figure A.1. A 2-byte integer value.</strong></p>
+<p class="image"><img src="graphics/xafig01.jpg" alt="Image"/></p>
+<h3 id="app01lev1sec5">Binary and Hex</h3>
+<p>Hex notation is often used to provide a more convenient view of binary data, such as memory addresses or integers holding bit-flag settings. The reason for this is that each hexadecimal digit corresponds to a 4-bit unit. <a href="#app01table02">Table A.2</a> shows this correspondence.</p>
+<p class="caption"><a id="page_1218"/><a id="app01table02"/><strong>Table A.2. Hexadecimal Digits and Binary Equivalents</strong></p>
+<p class="image"><img src="graphics/app-a-tab02.jpg" alt="Image"/></p>
+<p>To convert a hex value to binary, you just replace each hex digit with the corresponding binary equivalent. For example, the hex number 0xA4 corresponds to binary 1010 0100. Similarly, you can easily convert binary values to hex notation by converting each 4-bit unit into the equivalent hex digit. For example, the binary value 1001 0101 becomes 0x95.</p>
+<div class="sidebar"><hr/>
+<p class="title"><a id="app01sb01"/>Big Endian and Little Endian</p>
+<p class="sidebarpara">Oddly, two computing platforms that both use binary representation of integers might not represent the same number identically. Intel machines, for example, store bytes using the Little Endian architecture, whereas Motorola processors, IBM mainframe computers, SPARC processors, and ARM processors employ the Big Endian scheme. (However, the last two systems can be configured to use either scheme.)</p>
+<p class="sidebarpara">The terms <em>Big Endian</em> and <em>Little Endian</em> can be thought of as meaning &#8220;Big End In&#8221; and &#8220;Little End In&#8221;&#8212;a reference to the order of bytes in a word (typically a 2-byte unit) of memory. On an Intel computer (Little Endian), the low-order byte is stored first. This means a hex value such as <code>0xABCD</code> would be stored in memory as <code>0xCD 0xAB</code>. A Motorola (Big Endian) machine would store the same value in reverse, so <code>0xABCD</code> would be stored in memory as <code>0xAB 0xCD</code>.</p>
+<p class="sidebarpara">Jonathan Swift&#8217;s book <em>Gulliver&#8217;s Travels</em> is the ultimate source for these terms. Swift satirized the irrationality of many political disputes by inventing two contentious political factions in <a id="page_1219"/>Lilliput: the Big Endians, who maintained that the proper end to break an egg is the large end, and the Little Endians, who championed breaking the small end of the egg.</p>
+<p class="sidebarpara">You, as a software engineer, should understand the word order of the platform you are targeting. Among other things, it affects the interpretation of data transmitted over a network and how data is stored in binary files. In the preceding example, the 2-byte memory pattern <code>0xABCD</code> would represent the decimal value 52,651 on a Little Endian machine and the decimal value 43,981 on a Big Endian machine.</p>
+<hr/></div>
+</body>
+</html>
