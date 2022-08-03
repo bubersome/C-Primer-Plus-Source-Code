@@ -4,14 +4,14 @@ project(C_Primer_Plus_Source_Code)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)
 
-include_directories("Chapter 10")
-include_directories("Chapter 11")
-include_directories("Chapter 12")
-include_directories("Chapter 13")
-include_directories("Chapter 14")
-include_directories("Chapter 15")
-include_directories("Chapter 18")
-include_directories(Chapter09)
+#include_directories("Chapter 10")
+#include_directories("Chapter 11")
+#include_directories("Chapter 12")
+#include_directories("Chapter 13")
+#include_directories("Chapter 14")
+#include_directories("Chapter 15")
+#include_directories("Chapter 18")
+#include_directories(Chapter09)
 
 add_executable(C_Primer_Plus_Source_Code
 #        "Appendix E/align.cpp"
@@ -23,7 +23,7 @@ add_executable(C_Primer_Plus_Source_Code
 #        "Appendix G/appg3.cpp"
 #        "Appendix G/perfectf.cpp"
 #        "Chapter 02/carrots.cpp"
-        "Chapter 02/convert.cpp"
+#        "Chapter 02/convert.cpp"
 #        "Chapter 02/getinfo.cpp"
 #        "Chapter 02/myfirst.cpp"
 #        "Chapter 02/ourfunc.cpp"
@@ -320,8 +320,8 @@ add_executable(C_Primer_Plus_Source_Code
 #        Chapter09/autoscp.cpp
 #        Chapter09/coordin.h
 #        Chapter09/external.cpp
-#        Chapter09/file1.cpp
-#        Chapter09/file2.cpp
+        Chapter09/file1.cpp
+        Chapter09/file2.cpp
 #        Chapter09/namesp.cpp
 #        Chapter09/namesp.h
 #        Chapter09/newer.h
@@ -332,3 +332,5 @@ add_executable(C_Primer_Plus_Source_Code
 #        Chapter09/twofile2.cpp
 #        Chapter09/usenmsp.cpp)
         )
+
+#add_dependencies(/Chapter 10/stock00.h)
