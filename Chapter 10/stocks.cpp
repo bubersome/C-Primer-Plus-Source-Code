@@ -1,6 +1,6 @@
 // stocks.cpp -- the whole program
 #include <iostream>
-#include "stock00.h"
+#include "stocks00.h"
 
 int main()
 {
