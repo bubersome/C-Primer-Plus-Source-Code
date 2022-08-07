@@ -4,14 +4,14 @@ project(C_Primer_Plus_Source_Code)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)
 
-#include_directories("Chapter 10")
-#include_directories("Chapter 11")
-#include_directories("Chapter 12")
-#include_directories("Chapter 13")
-#include_directories("Chapter 14")
-#include_directories("Chapter 15")
-#include_directories("Chapter 18")
-#include_directories(Chapter09)
+include_directories("Chapter 10")
+include_directories("Chapter 11")
+include_directories("Chapter 12")
+include_directories("Chapter 13")
+include_directories("Chapter 14")
+include_directories("Chapter 15")
+include_directories("Chapter 18")
+include_directories(Chapter09)
 
 add_executable(C_Primer_Plus_Source_Code
 #        "Appendix E/align.cpp"
