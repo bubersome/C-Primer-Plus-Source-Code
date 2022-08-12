@@ -20,15 +20,16 @@ int main()
 	for_each(words.begin(), words.end(), output);
 	cout << endl;
  
-// construct anonymous back_insert_iterator object
+    cout << "construct anonymous back_insert_iterator object" << endl;
     copy(s2, s2 + 2, back_insert_iterator<vector<string> >(words));
 	for_each(words.begin(), words.end(), output);
     cout << endl;
 
-// construct anonymous insert_iterator object
+    cout <<"// construct anonymous insert_iterator object" <<endl ;
     copy(s3, s3 + 2, insert_iterator<vector<string> >(words, words.begin()));
 	for_each(words.begin(), words.end(), output);
 	cout << endl;
+    cout << "reverse string" << endl;
 	for_each(words.begin(), words.end(), routput);
     cout << endl;
 	// cin.get();

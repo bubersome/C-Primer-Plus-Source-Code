@@ -3,7 +3,7 @@
 #include <initializer_list>
 
 double sum(std::initializer_list<double> il);
-double average(const std::initializer_list<double> & ril);
+double average(const std::initializer_list<double> & ril); //const std::initializer_list<double> &
 
 int main()
 {

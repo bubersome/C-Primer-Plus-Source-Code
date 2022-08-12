@@ -11,7 +11,7 @@ public:
 };
 
 int main() {
-//    std::vector<char>() s;
-    s = "jaguar";
-    Solution::reverseString(s);
+//    std::vector<char>() s= "jaguar";
+//    char s = "jaguar";
+//    Solution::reverseString(s);
 }

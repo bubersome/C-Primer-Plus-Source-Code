@@ -3,7 +3,7 @@
 int main()
 {
     using namespace std;
-    int yams[3];    // creates array with three elements
+    int yams[4];    // creates array with three elements
     yams[0] = 7;    // assign value to first element
     yams[1] = 8;
     yams[2] = 6;
