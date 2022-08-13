@@ -5,16 +5,17 @@ long double probability(unsigned numbers, unsigned picks);
 int main()
 {
     using namespace std;
-    double total, choices;
+    double total =49 ;
+    double choices= 6;
     cout << "Enter the total number of choices on the game card and\n"
             "the number of picks allowed:\n";
-    while ((cin >> total >> choices) && choices <= total)
-    {
+//    while ((cin >> total >> choices) && choices <= total)
+//    {
         cout << "You have one chance in ";
         cout << probability(total, choices);      // compute the odds
         cout << " of winning.\n";
         cout << "Next two numbers (q to quit): ";
-    }
+//    }
     cout << "bye\n";
     // cin.get();
     // cin.get();

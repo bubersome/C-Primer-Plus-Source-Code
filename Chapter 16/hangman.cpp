@@ -36,7 +36,7 @@ int main()
             << "one letter at a time. You get " << guesses
             << " wrong guesses.\n";
         cout << "Your word: " << attempt << endl;
-        while (guesses > 0 && attempt != target)
+        while (guesses > 0 && attempt != target) //由于关系运算符被重载，因此可以像对待数值变量那样对待字符串
         {
             char letter;
             cout << "Guess a letter: ";

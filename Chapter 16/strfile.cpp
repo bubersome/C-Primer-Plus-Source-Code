@@ -7,7 +7,7 @@ int main()
 {
      using namespace std;
      ifstream fin;
-     fin.open("tobuy.txt");
+     fin.open("/Users/32f/C/C-Primer-Plus-Source-Code/Chapter 16/tobuy.txt");
      if (fin.is_open() == false)
      {
         cerr << "Can't open file. Bye.\n";
@@ -21,7 +21,8 @@ int main()
      {
         ++count;
         cout << count <<": " << item << endl;
-        getline(fin, item,':');     
+//        ++count;
+         getline(fin, item,':');
      }
      cout << "Done\n";
      fin.close();
