@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-vector<string> input;
+vector<string> input= {"bonu","next will be bonus","bonus","bush"};
 string temp;
 while (cin >> temp && temp != "quit")
     input.push_back(temp);
@@ -19,5 +19,5 @@ if (want != input.end())
 }
 for_each(input.begin(), input.end(), [](string s){cout << s << ", ";});
 cin.get();
-cin.get();
+//cin.get();
 }
