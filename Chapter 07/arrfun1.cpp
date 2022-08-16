@@ -14,7 +14,7 @@ int main()
 //    int sum = sum_arr(cookies, ArSize);
     cout << "Total cookies eaten: " << sum <<  "\n";
     // cin.get();
-    /print (cookies, 3);
+    //print (cookies, 3);
     return 0;
 }
 

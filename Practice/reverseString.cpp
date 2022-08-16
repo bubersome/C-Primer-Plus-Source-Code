@@ -13,7 +13,7 @@ void reverseString(vector<string>& s) {
 int main(){
 //    string abcd;
 //    string r = abcd;
-    vector<string> a = {"a","b","c"};
+    vector<string> a  {"a","b","c"};
 //    reverseString(vector<char>& (a));
     reverseString(a);
     cout << reverseString <<endl;
