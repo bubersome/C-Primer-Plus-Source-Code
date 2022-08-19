@@ -8,7 +8,7 @@
 using namespace std;
 
 // 要生成和返回随机数的函数
-int * getRandom( )
+int * getRandom( ) //watch address of getRandom()
 {
     static int  r[10];
 
@@ -27,7 +27,7 @@ int * getRandom( )
 int main ()
 {
     // 一个指向整数的指针
-    int *p;
+    int *p; //watch address of p
 
     p = getRandom();
     for ( int i = 0; i < 10; i++ )
